@@ -11,7 +11,7 @@
     },
     "autoload": {
         "psr-4": {
-            "app\\": "app/"
+            "app//": "app/"
         },
         "files": [
             "app/config/config.php"

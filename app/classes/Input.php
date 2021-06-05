@@ -28,6 +28,6 @@ class Input
 
     public static function post(string $param, int $filter = FILTER_SANITIZE_STRING): string
     {
-        return filter_input(INPUT_GET, $param, $filter);
+        return filter_input(INPUT_POST, $param, $filter);
     }
 }
